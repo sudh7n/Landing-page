@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #272727;
+}
+
+.nav-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-list a {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: #d4d4d4;
+}
+
+.hero {
+    background-color: #696773;
+}
+
+.hero-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 50px 50px 50px 0;
+}
+
+.hero-img {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.btn {
+    background-color: #009FB7;
+    height: 40px;
+    width: 80px;
+    border: 2px solid #696773;
+    color: #EFF1F3;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    border: 2px solid #EFF1F3;
+}
+
+.information {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 20px;
+}
+
+.info {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #009FB7;
+    border-radius: 20%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #272727;
+    margin: 90px 0 50px 0;
+}
+
+.info-para {
+    color: #272727;
+    text-align: center;
+}
+
+.quote-container {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #009FB7;
+    margin: 200px auto 250px auto;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.quote {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #272727;
+}
+
+.author {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: flex-end;
+    color: #272727;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+}
